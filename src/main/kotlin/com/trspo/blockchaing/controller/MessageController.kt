@@ -23,7 +23,8 @@ class MessageController {
     }
 
     @GetMapping("start")
-    fun startSystem() {
+    fun startSystem():String{
         messageProducer.sendStartMessage()
+        return "System started. Have a good mining, sir."
     }
 }

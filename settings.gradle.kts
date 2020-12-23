@@ -1,1 +1,1 @@
-rootProject.name = "blockchaing"
+rootProject.name = "blockchain"
